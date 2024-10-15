@@ -1,0 +1,138 @@
+@font-face {
+    font-family: estedad;
+    src: url('../fonts/Estedad-Black.woff2');
+    font-weight: 900;
+}
+@font-face {
+    font-family: estedad;
+    src: url('../fonts/Estedad-ExtraBold.woff2');
+    font-weight: 800;
+}
+@font-face {
+    font-family: estedad;
+    src: url('../fonts/Estedad-Bold.woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: estedad;
+    src: url('../fonts/Estedad-SemiBold.woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: estedad;
+    src: url('../fonts/Estedad-Medium.woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: estedad;
+    src: url('../fonts/Estedad-Regular.woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: estedad;
+    src: url('../fonts/Estedad-Light.woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: estedad;
+    src: url('../fonts/Estedad-Thin.woff2');
+    font-weight: 200;
+}
+td, th, label, a{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.branch-title, .branch-main{
+    font-family: estedad !important;
+    font-size: 18px;
+}
+#payInfo{
+    font-family: estedad !important;
+    margin: 25px 0 35px 0;
+    background-color: #e0e1ea;
+    padding: 20px;
+    border-radius: 8px;
+}
+.payInfoRow{
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+}
+.payInfoCol{
+    flex-basis: 23%;
+}
+.payInfoBox{
+    padding: 20px;
+    border-radius: 8px;
+    height: 95px;
+}
+.paginationPay{
+    font-family: estedad !important;
+    overflow-x: auto;
+    overflow-y: clip;
+}
+#payTable{
+    margin:15px 0 5px 0;
+}
+.table-branch {
+    font-family: estedad;
+    border-collapse: collapse;
+    width: 100% !important;
+}
+
+.table-branch td, .table-branch th {
+    border: 1px solid #cccfe375;
+    text-align: right;
+    padding: 8px;
+}
+
+.table-branch tr:nth-child(even) {
+    background-color: #cccfe375;
+}
+#chartPay{
+    direction: ltr;
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.canvasPay{
+    width:100%;
+    max-width: 500px;
+    margin-top: 40px;
+}
+#SearchProParent{
+    margin-bottom:150px;
+}
+#searchPro{
+    font-family: estedad !important;
+    margin-top: 25px;
+    background-color: #e0e1ea;
+    padding: 20px;
+}
+#searchPro input, #searchPro select{
+    border: unset;
+}
+.searchRow{
+    display: flex;
+    gap:20px;
+    overflow-x: auto;
+}
+#tableSP{
+    font-family: estedad !important;
+}
+.dataTables_length, .dataTables_filter{
+    display:inline;
+}
+.dataTables_filter{
+    float:left;
+}
+.dataTables_filter input{
+    margin-right: 10px;
+}
